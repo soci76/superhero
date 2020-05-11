@@ -5,5 +5,9 @@ jQuery.getJSON( 'users', function( users ) {
 
 //Check user
 function checkUser() {
-    console.log( 'bla bla' ); 
+    if (user.role > 4) {
+        return true;
+    } else {
+        return false;
+    }
 }
