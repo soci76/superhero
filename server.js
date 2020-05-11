@@ -1,7 +1,16 @@
 // Beolvassuk a szükséges csomagokat
 var express = require('express');
 var fs = require('fs');
+var itf = require('./my_modules/itf_module');
 
+var str = 'ItFactory Meatup....';
+itf.tu( str, function(err, newStr) {
+    if (err) {
+        console.error(err);
+    } else {
+        console.log('New string is', newStr);
+    }
+} );
 // Globális változók.
 var port = 3333;
 var staticDir = 'build';
@@ -55,5 +64,4 @@ app.get('/users/:id*?',  function (req, res) {
 
 // Megadjuk, hogy a szerver melyik portot figyelje
 app.listen(port);
-
 console.log("Server runining in localhost: "+port);
