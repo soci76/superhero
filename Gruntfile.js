@@ -13,8 +13,8 @@ module.exports = function(grunt) {
       },
       watch: {
         scripts: {
-        files: ['src/**/*.js', 'src/**/*.html', 'src/**/*.css'],
-        tasks: ['uglify'],
+        files: ['src/**/*.js', 'src/**/*.html', 'src/**/*.css', 'src/**/*.pug'],
+        tasks: ['dev'],
         options: {
           spawn: false,
         },
