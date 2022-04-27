@@ -7,7 +7,7 @@
         "mongoose": "5.9.14",
         "mime-types": "~2.1.27",
         "negotiator": "0.6.2",
-        "grunt": "1.1.0",
+        "grunt": "1.5.2",
         "grunt-cli": "",
         "grunt-contrib-watch": "",
         "grunt-contrib-uglify": "",
