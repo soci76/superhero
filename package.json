@@ -2,7 +2,7 @@
     "name": "joe-test-package",
     "version": "0.0.1",
     "dependencies": {
-        "express": "4.17.1",
+        "express": "4.17.3",
         "pug": "2.0.4",
         "mongoose": "5.9.14",
         "mime-types": "~2.1.27",
